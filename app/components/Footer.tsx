@@ -15,7 +15,7 @@ export default function Footer() {
         {/* Logo & tagline */}
         <div className="flex flex-col gap-4">
           <Link href="/">
-            <Image src="/logo.png" alt="Brand Logo" width={140} height={34} />
+            <Image src="/logo-light.png" alt="Brand Logo" width={140} height={34} />
           </Link>
           <p className="text-gray-300 text-sm md:text-base">
             Gear up for your next adventure with apparel built to withstand nature’s extremes.
