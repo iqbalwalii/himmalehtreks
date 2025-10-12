@@ -17,7 +17,7 @@ export default function Hero() {
           preload="auto"
           poster="/hero-3.jpg"
         >
-          <source src="/video.webm" type="video/mp4" />
+          <source src="/video.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black/50" />
       </div>

@@ -10,15 +10,12 @@ import NewsletterCTA from "./components/Newsletter";
 export default function Home() {
   return (
     <>
-      <Navbar />
       <SecondHero />
       <CategoryHighlights/> 
       <Hero/>
       <BrandStory/>
       <FeaturedProducts/>
       <NewsletterCTA/>
-      {/* further sections: featured categories, product grid, lookbook, CTA */}
-      <Footer />
     </>
   );
 }
