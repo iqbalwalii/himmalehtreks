@@ -14,7 +14,8 @@ export default function Hero() {
           loop
           muted
           playsInline
-          poster="/hero-fallback.jpg"
+          preload="auto"
+          poster="/hero-3.jpg"
         >
           <source src="/video.webm" type="video/mp4" />
         </video>
