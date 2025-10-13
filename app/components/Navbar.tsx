@@ -60,11 +60,11 @@ export default function Navbar() {
           </div>
 
           <div className="px-6 py-8 space-y-6 text-lg font-medium bg-stone-950">
-            <Link href="/mens" onClick={() => setOpen(false)} className="block hover:text-[#00D4FF]">Men</Link>
-            <Link href="/womens" onClick={() => setOpen(false)} className="block hover:text-[#00D4FF]">Women</Link>
-            <Link href="/gear" onClick={() => setOpen(false)} className="block hover:text-[#00D4FF]">Gear</Link>
-            <Link href="/stories" onClick={() => setOpen(false)} className="block hover:text-[#00D4FF]">Stories</Link>
-            <Link href="/cart" onClick={() => setOpen(false)} className="block hover:text-[#00D4FF]">Cart</Link>
+            <Link href="/products/mens" onClick={() => setOpen(false)} className="block hover:text-[#00D4FF]">Men</Link>
+            <Link href="/products/womens" onClick={() => setOpen(false)} className="block hover:text-[#00D4FF]">Women</Link>
+            <Link href="/products/gear" onClick={() => setOpen(false)} className="block hover:text-[#00D4FF]">Gear</Link>
+            <Link href="/products/stories" onClick={() => setOpen(false)} className="block hover:text-[#00D4FF]">Stories</Link>
+            {/* <Link href="/cart" onClick={() => setOpen(false)} className="block hover:text-[#00D4FF]">Cart</Link> */}
 
             <div className="mt-6 border-t border-stone-800 pt-4">
               <button className="flex items-center gap-2 text-sm hover:text-[#00D4FF]">
