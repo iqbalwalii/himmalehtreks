@@ -30,21 +30,21 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-6">
-            <Link href="/mens" className="text-sm font-medium text-stone-950 hover:text-amber-300">Men</Link>
-            <Link href="/womens" className="text-sm font-medium text-stone-950 hover:text-amber-300">Women</Link>
-            <Link href="/gear" className="text-sm font-medium text-stone-950 hover:text-amber-300">Gear</Link>
-            <Link href="/stories" className="text-sm font-medium text-stone-950 hover:text-amber-300">Stories</Link>
+            <Link href="/products/mens" className="text-sm font-medium text-stone-950 hover:text-[#00D4FF]">Men</Link>
+            <Link href="/products/womens" className="text-sm font-medium text-stone-950 hover:text-[#00D4FF]">Women</Link>
+            <Link href="/products/gear" className="text-sm font-medium text-stone-950 hover:text-[#00D4FF]">Gear</Link>
+            <Link href="/stories" className="text-sm font-medium text-stone-950 hover:text-[#00D4FF]">Stories</Link>
           </nav>
 
           {/* Right Section */}
           <div className="flex items-center gap-4">
-            <button className="hidden md:flex items-center gap-2 text-sm text-stone-950 hover:text-amber-300">
+            {/* <button className="hidden md:flex items-center gap-2 text-sm text-stone-950 hover:text-[#00D4FF]">
               <Search className="w-4 h-4" /> <span>Search</span>
-            </button>
+            </button> */}
 
-            <Link href="/cart" className="p-2 rounded-md hover:bg-slate-100">
+            {/* <Link href="/cart" className="p-2 rounded-md hover:bg-slate-100"> */}
               <ShoppingCart className="w-5 h-5 text-stone-950" />
-            </Link>
+            {/* </Link> */}
           </div>
         </div>
       </div>
@@ -60,14 +60,14 @@ export default function Navbar() {
           </div>
 
           <div className="px-6 py-8 space-y-6 text-lg font-medium bg-stone-950">
-            <Link href="/mens" onClick={() => setOpen(false)} className="block hover:text-amber-300">Men</Link>
-            <Link href="/womens" onClick={() => setOpen(false)} className="block hover:text-amber-300">Women</Link>
-            <Link href="/gear" onClick={() => setOpen(false)} className="block hover:text-amber-300">Gear</Link>
-            <Link href="/stories" onClick={() => setOpen(false)} className="block hover:text-amber-300">Stories</Link>
-            <Link href="/cart" onClick={() => setOpen(false)} className="block hover:text-amber-300">Cart</Link>
+            <Link href="/mens" onClick={() => setOpen(false)} className="block hover:text-[#00D4FF]">Men</Link>
+            <Link href="/womens" onClick={() => setOpen(false)} className="block hover:text-[#00D4FF]">Women</Link>
+            <Link href="/gear" onClick={() => setOpen(false)} className="block hover:text-[#00D4FF]">Gear</Link>
+            <Link href="/stories" onClick={() => setOpen(false)} className="block hover:text-[#00D4FF]">Stories</Link>
+            <Link href="/cart" onClick={() => setOpen(false)} className="block hover:text-[#00D4FF]">Cart</Link>
 
             <div className="mt-6 border-t border-stone-800 pt-4">
-              <button className="flex items-center gap-2 text-sm hover:text-amber-300">
+              <button className="flex items-center gap-2 text-sm hover:text-[#00D4FF]">
                 <Search className="w-4 h-4" /> Search
               </button>
             </div>

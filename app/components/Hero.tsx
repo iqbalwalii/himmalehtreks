@@ -38,8 +38,8 @@ export default function Hero() {
                   <p className="mt-4 text-sm md:text-lg max-w-md">{s.subtitle}</p>
 
                   <div className="mt-6 flex gap-3">
-                    <a href="/products" className="inline-block px-5 py-3 rounded bg-amber-300 text-stone-950 font-semibold hover:bg-amber-400 transition">Shop Now</a>
-                    <a href="/stories" className="inline-block px-4 py-3 rounded border border-white/30 text-white hover:bg-white/5 transition">Explore Stories</a>
+                    <a href="/products" className="px-8 py-4 rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold tracking-wide hover:from-blue-500 hover:to-cyan-400 transition-all shadow-lg hover:shadow-cyan-500/20">Shop Now</a>
+                    <a href="/stories" className="border border-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-stone-950 transition">Explore Stories</a>
                   </div>
                 </div>
               </motion.div>

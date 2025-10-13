@@ -8,22 +8,22 @@ const categories = [
   {
     title: "Men’s Collection",
     image: "/men.jpg",
-    link: "/mens",
+    link: "/products/mens",
   },
   {
     title: "Women’s Collection",
     image: "/women.jpg",
-    link: "/womens",
+    link: "/products/womens",
   },
   {
     title: "Outdoor Gear",
     image: "/outdoor.jpg",
-    link: "/gear",
+    link: "/products/gear",
   },
   {
     title: "Adventure Stories",
     image: "/adventure.jpg",
-    link: "/stories",
+    link: "/products/stories",
   },
 ];
 
@@ -55,7 +55,7 @@ export default function CategoryHighlights() {
                 <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition duration-500" />
                 <div className="absolute bottom-6 left-6">
                   <h3 className="text-xl font-semibold text-white mb-2">{cat.title}</h3>
-                  <span className="inline-block bg-amber-300 text-stone-950 px-4 py-1.5 rounded-full text-sm font-medium">
+                  <span className="px-4 py-1 rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 text-stone-950 hover:text-white font-semibold tracking-wide hover:from-blue-500 hover:to-cyan-400 transition-all shadow-lg hover:shadow-cyan-500/20">
                     Discover
                   </span>
                 </div>

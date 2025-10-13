@@ -62,9 +62,9 @@ export default function FeaturedProducts() {
                 <div className="p-4">
                   <h3 className="text-lg font-semibold text-stone-950 mb-1">{product.name}</h3>
                   <p className="text-gray-600 mb-2">{product.price}</p>
-                  <span className="inline-block mt-2 px-4 py-2 bg-amber-300 text-stone-950 font-medium rounded-full text-sm group-hover:bg-amber-400 transition">
+                  {/* <span className="inline-block mt-2 px-4 py-2 bg-amber-300 text-stone-950 font-medium rounded-full text-sm group-hover:bg-amber-400 transition">
                     View
-                  </span>
+                  </span> */}
                 </div>
               </Link>
             </motion.div>

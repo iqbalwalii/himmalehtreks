@@ -46,7 +46,7 @@ export default function BrandStory() {
           </p>
           <a
             href="/about"
-            className="inline-block mt-4 px-6 py-3 rounded-full bg-amber-300 text-stone-950 font-semibold hover:bg-amber-400 transition"
+            className="px-8 py-4 rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold tracking-wide hover:from-blue-500 hover:to-cyan-400 transition-all shadow-lg hover:shadow-cyan-500/20"
           >
             Learn More
           </a>
