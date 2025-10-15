@@ -50,7 +50,7 @@ export default function NewsletterCTA() {
             required
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="flex-1 px-6 py-4 rounded-full text-stone-900 font-medium focus:outline-none border border-stone-700"
+            className="flex-1 px-6 py-4 rounded-full text-white font-medium focus:outline-none border border-stone-700"
           />
           <button
             type="submit"
