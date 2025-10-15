@@ -54,6 +54,9 @@ export default function Footer() {
             <a href="tel:+971559533290" className="block hover:text-[#00D4FF]">
               🇦🇪 +971 559533290
             </a>
+            <a href="tel:+971455589179" className="block hover:text-[#00D4FF]">
+              🇦🇪 +971 455589179
+            </a>
             <a href="tel:+917006432968" className="block hover:text-[#00D4FF]">
               🇮🇳 +91 7006432968
             </a>
