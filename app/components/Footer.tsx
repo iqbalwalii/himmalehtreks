@@ -11,12 +11,12 @@ export default function Footer() {
 
         {/* Brand / Logo */}
         <div className="space-y-4">
-          <div className="flex items-center gap-3">
+          <div className="flex flex-col gap-3">
             <Image
               src="/logo-light.png"
               alt="Himmaleh Treks Logo"
-              width={120}
-              height={120}
+              width={170}
+              height={170}
               className="rounded"
             />
             <h2 className="text-2xl font-extrabold text-[#00D4FF] tracking-tight">
